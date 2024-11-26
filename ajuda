@@ -1,0 +1,16 @@
+1. Compilar o Script Node.js em um Executável
+
+npm install -g pkg
+pkg criaArquivo.js --targets win-x64 --output criaArquivo.exe
+
+Criar um Serviço do Windows
+Baixar o NSSM:
+Baixe o executável do site oficial do NSSM.
+Extraia e copie o executável (nssm.exe) para o diretório C:\Windows\System32 para fácil acesso.
+
+nssm install "nome do serviço"
+nssm start "nome do serviço"
+nssm remove "nome do serviço"
+
+
+
